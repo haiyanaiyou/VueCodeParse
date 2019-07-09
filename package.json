@@ -1,0 +1,32 @@
+{
+  "name": "VueCodeParse",
+  "version": "1.0.0",
+  "description": "可根据commit 提交记录进行一步步查看\r 内容包括：\r - vue初始化流程\r - vue响应式原理\r - vue编译原理",
+  "main": "rollup.config.js",
+  "type": "module",
+  "dependencies": {},
+  "devDependencies": {
+    "@babel/core": "^7.20.12",
+    "@babel/preset-env": "^7.20.2",
+    "cross-env": "^7.0.3",
+    "rollup": "^3.12.0",
+    "rollup-plugin-babel": "^4.4.0",
+    "rollup-plugin-serve": "^2.0.2"
+  },
+  "scripts": {
+    "serve": "cross-env ENV=development rollup -c -w",
+    "build:dev": "rollup -c",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/haiyanaiyou/VueCodeParse.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/haiyanaiyou/VueCodeParse/issues"
+  },
+  "homepage": "https://github.com/haiyanaiyou/VueCodeParse#readme"
+}

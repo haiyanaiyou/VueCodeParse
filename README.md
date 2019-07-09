@@ -1,2 +1,5 @@
-# VueProject
-vue demo
+# vue2源码解析
+可根据commit 提交记录进行一步步查看
+内容包括：
+- vue响应式原理
+- vue编译原理
